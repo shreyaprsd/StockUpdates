@@ -1,4 +1,4 @@
- Stock Updates📉📈
+# Stock Updates📉📈
 
  
 This application uses the alphaVantage API to fetch the details of the desired stocks from the server.
