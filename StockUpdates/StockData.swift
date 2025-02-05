@@ -60,7 +60,7 @@ struct StockData: View {
     
     func fetchData(){
       
-        let urlString = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=\(searchStock)&outputsize=compact&apikey=DZ43GS1LN5IOLBDP"
+        let urlString = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=\(searchStock)&outputsize=compact&apikey="Add your API key"
         guard let url = URL(string: urlString) else{
             return
         }
